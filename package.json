@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint": "stylelint \"**/*.css\" && eslint . && prettier . --check",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^17.0.0",
@@ -23,6 +25,7 @@
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^24.0.0",
     "typescript": "^4.3.2",
-    "vite": "^2.6.4"
+    "vite": "^2.6.4",
+    "husky": "^7.0.0"
   }
 }
