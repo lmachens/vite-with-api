@@ -2,7 +2,7 @@
   "name": "vite-with-api",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev-client": "vite",
     "dev-server": "ts-node-dev --project server/tsconfig.json server/index.ts",
     "build": "tsc && vite build",
     "serve": "vite preview",
