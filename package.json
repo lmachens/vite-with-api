@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "tesseract.js": "^2.1.5"
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
